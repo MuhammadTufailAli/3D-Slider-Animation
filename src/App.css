@@ -1,38 +1,201 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.outer-container{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: black;
+  height: 100vh;
+}
+.main-rail-wrapper {
+  perspective: 2000px;
+  width: 100%;
+  perspective-origin: 50%;
+  transform-origin: 50% 0;
+  height: 75vh;
+  max-height: 45rem;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  background-color: black;
+}
+.inner-shadow {
+  z-index: 5;
+  background-image: 
+  linear-gradient(180deg, #080808 25%, rgba(0, 0, 0, 0) 48%),
+  radial-gradient(circle farthest-corner at 50% -25%, rgba(27, 27, 27, 0) 34%, #080808),
+  linear-gradient(180deg, #080808, rgba(29, 29, 29, 0) 38%, rgba(29, 29, 29, 0) 78%, #000 101%);
+
+  width: 140vw;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
 }
 
-.App-link {
-  color: #61dafb;
+.cc-rail-flip {
+  grid-column-gap: 20px;
+  grid-row-gap: 12px;
+  perspective: 2000px;
+  perspective-origin: 50% 0;
+  transform-style: preserve-3d;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 106vw;
+  max-width: 2280px;
+  height: 175vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  position: absolute;
+  top: -60%;
+  bottom: auto;
+  left: -6vw;
+  right: -6vw;
+  transform: rotateX(65deg)rotateY(0)rotateZ(0)translate(0, -25vh);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.col-rail {
+  flex-direction: column;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: center;
+  width: auto;
+  max-width: none;
+  height: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+  position: relative;
+}
+
+.inner-col-rail {
+  grid-column-gap: 60px;
+  grid-row-gap: 30px;
+  flex-direction: column;
+  flex: none;
+  align-items: stretch;
+  width: 100%;
+  height: auto;
+  /* padding-top: 30px; */
+  padding-bottom: 30px;
+  display: flex;
+  transform: translateY(0%);
+/* Apply animation */
+animation: slideUpDown 30s linear infinite;
+}
+
+.inner-col-rail2 {
+  grid-column-gap: 60px;
+  grid-row-gap: 30px;
+  flex-direction: column;
+  flex: none;
+  align-items: stretch;
+  width: 100%;
+  height: auto;
+  /* padding-top: 30px; */
+  padding-bottom: 30px;
+  display: flex;
+  transform: translateY(0%);
+/* Apply animation */
+animation: slideUpDown 18s linear infinite;
+}
+
+.inner-col-rail1 {
+  grid-column-gap: 60px;
+  grid-row-gap: 30px;
+  flex-direction: column;
+  flex: none;
+  align-items: stretch;
+  width: 100%;
+  height: auto;
+  /* padding-top: 30px; */
+  padding-bottom: 30px;
+  display: flex;
+  transform: translateY(0%);
+/* Apply animation */
+animation: slideUpDown 27s linear infinite;
+}
+
+@keyframes slideUpDown {
+0% {
+  transform: translateY(0%);
+}
+100% {
+  transform: translateY(-100%);
+}
+}
+
+
+
+
+
+
+.card-logo-image {
+  background-color: #1b1b1b;
+  background-image: none;
+  border: 3px solid #0053ac;
+  border-radius: 14px;
+  flex-direction: column;
+  flex: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* max-width: 420px; */
+  height: 300px;
+  /* padding: 124px 64px; */
+  display: flex;
+  box-shadow: inset 0 -5px rgba(255, 250, 250, .1), 0 2px 35px rgba(38, 14, 219, .65);
+}
+
+
+.cc-logo-image {
+  width: 100%;
+  max-width: 164px;
+  height: 100%;
+  max-height: 4.8vh;
+}
+.card-startup-image {
+  background-color: #1b1b1b;
+  background-image: none;
+  border: 3px solid #0053ac;
+  border-radius: 14px;
+  flex-direction: column;
+  flex: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* max-width: 420px; */
+  height: 300px;
+  display: flex;
+  box-shadow: inset 0 -5px rgba(255, 250, 250, .1), 0 2px 35px rgba(38, 14, 219, .65);
+}
+.card-image-rail {
+  object-fit: cover;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+
+@media screen and (max-width: 1136px) {
+.col-rail1 {
+  display:none
+}
+}
+
+@media screen and (max-width: 820px) {
+.col-rail4 {
+  display:none
+}
+}
+
+@media screen and (max-width: 480px) {
+.col-rail3 {
+  display:none
+}
 }
