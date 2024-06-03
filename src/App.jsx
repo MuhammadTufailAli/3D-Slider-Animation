@@ -11,7 +11,7 @@ function App() {
 
 
      {/* First Column */}
-       <div data-w-id="78f85ea1-8be1-1b94-2210-9cd5fbb5f160" class="col-rail">
+       <div data-w-id="78f85ea1-8be1-1b94-2210-9cd5fbb5f160" class="col-rail col-rail1">
         {/* Every column have 2 identical div to create infinte animation */}
           <div class="inner-col-rail1" >
              <div class="card-logo-image"><img src="https://cdn.prod.website-files.com/65cabca1db72d456cf6fbc46/65e9f1d5c03bfc02bb103357_Philips_logo_new%202.svg" loading="lazy" alt="" class="cc-logo-image"/></div>
@@ -28,7 +28,7 @@ function App() {
        </div>
 
        {/* Second Column */}
-       <div data-w-id="78f85ea1-8be1-1b94-2210-9cd5fbb5f173" class="col-rail">
+       <div data-w-id="78f85ea1-8be1-1b94-2210-9cd5fbb5f173" class="col-rail col-rail2">
           <div class="inner-col-rail" >
              <div class="card-startup-image"><img src="https://cdn.prod.website-files.com/65cabca1db72d456cf6fbc46/65e9f3fe327e773227f92742_image%201335.png" loading="lazy" sizes="(max-width: 991px) 100vw, 36vw" srcset="https://cdn.prod.website-files.com/65cabca1db72d456cf6fbc46/65e9f3fe327e773227f92742_image%201335-p-500.png 500w, https://cdn.prod.website-files.com/65cabca1db72d456cf6fbc46/65e9f3fe327e773227f92742_image%201335-p-800.png 800w, https://cdn.prod.website-files.com/65cabca1db72d456cf6fbc46/65e9f3fe327e773227f92742_image%201335-p-1080.png 1080w, https://cdn.prod.website-files.com/65cabca1db72d456cf6fbc46/65e9f3fe327e773227f92742_image%201335.png 1201w" alt="" class="card-image-rail"/></div>
              <div class="card-logo-image"><img src="https://cdn.prod.website-files.com/65cabca1db72d456cf6fbc46/65ea6ee6efe9778b6d19a396_station.svg" loading="lazy" alt="" class="cc-logo-image"/></div>
@@ -50,7 +50,7 @@ function App() {
        </div>
 
        {/* Third Column */}
-       <div data-w-id="78f85ea1-8be1-1b94-2210-9cd5fbb5f186" class="col-rail">
+       <div data-w-id="78f85ea1-8be1-1b94-2210-9cd5fbb5f186" class="col-rail col-rail3">
           <div class="inner-col-rail" >
              <div class="card-logo-image"><img src="https://cdn.prod.website-files.com/65cabca1db72d456cf6fbc46/65ea6ee6efe9778b6d19a396_station.svg" loading="lazy" alt="" class="cc-logo-image"/></div>
              <div class="card-startup-image"><img src="https://cdn.prod.website-files.com/65cabca1db72d456cf6fbc46/65e9f46e2603dc33e5dea7b1_6388cd67a3e39927ca4d40b1_mural-brand-card-wordmark-2.png" loading="lazy" sizes="(max-width: 479px) 87vw, (max-width: 767px) 100vw, (max-width: 991px) 92vw, 32vw" srcset="https://cdn.prod.website-files.com/65cabca1db72d456cf6fbc46/65e9f46e2603dc33e5dea7b1_6388cd67a3e39927ca4d40b1_mural-brand-card-wordmark-2-p-500.png 500w, https://cdn.prod.website-files.com/65cabca1db72d456cf6fbc46/65e9f46e2603dc33e5dea7b1_6388cd67a3e39927ca4d40b1_mural-brand-card-wordmark-2-p-800.png 800w, https://cdn.prod.website-files.com/65cabca1db72d456cf6fbc46/65e9f46e2603dc33e5dea7b1_6388cd67a3e39927ca4d40b1_mural-brand-card-wordmark-2-p-1080.png 1080w, https://cdn.prod.website-files.com/65cabca1db72d456cf6fbc46/65e9f46e2603dc33e5dea7b1_6388cd67a3e39927ca4d40b1_mural-brand-card-wordmark-2.png 1600w" alt="" class="card-image-rail"/></div>
@@ -70,7 +70,7 @@ function App() {
        </div>
 
        {/* Fourth Column */}
-       <div data-w-id="78f85ea1-8be1-1b94-2210-9cd5fbb5f1a1" class="col-rail">
+       <div data-w-id="78f85ea1-8be1-1b94-2210-9cd5fbb5f1a1" class="col-rail col-rail4">
           <div class="inner-col-rail" >
              <div class="card-logo-image"><img src="https://cdn.prod.website-files.com/65cabca1db72d456cf6fbc46/65e9f1d5c03bfc02bb103357_Philips_logo_new%202.svg" loading="lazy" alt="" class="cc-logo-image"/></div>
              <div class="card-logo-image"><img src="https://cdn.prod.website-files.com/65cabca1db72d456cf6fbc46/65cabca1db72d456cf6fbccf_Attentive.svg" loading="lazy" alt="" class="cc-logo-image"/></div>
